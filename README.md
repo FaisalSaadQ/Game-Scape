@@ -39,5 +39,16 @@ In the `users` table, set the `role` column to `'admin'`.
 
 ---
 
+👨‍💻 Developed By
+Students of Imam Abdulrahman Bin Faisal University – Web-Based Systems Course
+
+Faisal Alqahtani
+Abdullah AlBattat
+Hussain Alghubari
+Khalid Alghamdi
+Sultan Alotaibi
+
+---
+
 ## License
 This project is licensed under the **MIT License**.
