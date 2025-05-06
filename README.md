@@ -1,18 +1,19 @@
-# Game Scape
+# Game Scape 🎮🛒
 
 **Game Scape** is an online shopping platform designed for gamers to browse, search, and purchase gaming products. It also includes an admin dashboard to manage products and orders.
 
 ---
 
-## Features
-- User sign up and login
-- Product browsing and search
-- View product details
-- Add items to cart and checkout
-- Admin dashboard to:
-  - Add / Edit / Delete products
-  - View orders
+## 🚀 Features
 
+- User registration and login system  
+- Secure password handling with hashing  
+- Browse and search for products  
+- View product details  
+- Add to cart and checkout  
+- Admin dashboard:
+  - Add / edit / delete products  
+  - View customer orders  
 ---
 
 ## Technologies Used
