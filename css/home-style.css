@@ -1,0 +1,267 @@
+body{
+    background-color: #242424;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+}
+
+
+.ad-paner{
+    width:1638px;
+    height:500px;
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    border-radius: 40px;
+    border: 8px solid #3DBDA7;
+    background-image: url(../assets/ad1.svg);
+}
+
+
+
+.right-c{
+    position: relative;
+    top: 80px;
+    left: 1480px;
+} */
+
+.popular-b {
+    width: 112px;
+    height: 40px;
+    margin: 16px;
+    border-radius: 72px;
+    background-color:#3DBDA7 ;
+
+}
+
+.popular-b img {
+    width: 24px;
+    margin:7.5px ;
+  
+}
+
+.popular-b p {
+    color: white;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 32px;
+    left: 35px;
+    font-weight: bold;
+}
+
+.for-brodact {
+    width: 910px;
+    height: 45px;
+    border-radius: 40px;
+    background-color: #3DBDA7;
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 31px;
+}
+
+.for-brodact h2 {
+    color: white;
+    text-align: center;
+    padding-top: 11.25px;
+}
+
+.show-some-prodect{
+    display: flex;
+    width: 1444px;
+    height: 538px;
+    background-color: #00453F;
+    /* border: 8px solid #3DBDA7; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-bottom: 31px;
+    margin-left: auto ;
+    margin-right: auto;
+    padding: 20px;
+    padding-left:97px ;
+    padding-right: 97px;
+}
+
+.show-some-old-prodect {
+    width: 1444px;
+    min-height: 538px;
+    background-color: #00453f84;
+    border-radius: 40px;
+    margin: 31px auto;
+    padding: 20px 97px;
+}
+
+.prodct-card{
+    width: 347px;
+    height: 512px;
+    background-color:#242424;
+    border:2px solid #eeeeee50; 
+    border-radius: 50px;
+    padding: 13px; 
+    float: left;
+    transition: border 0.3s ease;
+    margin-left: 16px;
+}
+
+
+.prodct-card a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.prodct-card:hover {
+   border:5px solid #3DBDA7 ;
+   transform: scale(1.05); /* Hover effect */
+}
+
+
+.hold-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 0; 
+}
+
+
+.prodct-photo {
+    position: relative;
+    width: 346px;
+    height: 238px;
+    overflow: hidden; 
+    border-radius: 50px;
+}
+  
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    object-fit: cover;
+
+}
+  
+.prodect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+
+}
+
+
+.green-line {
+    background-color: #3DBDA7;
+    border: #3DBDA7;
+    width: 314.53px;
+    height:3.11px ;
+    border-radius: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.prodect-name{
+    color:white;
+    font-size:16px ;
+    margin-top: 11px;
+    margin-bottom:11px ;
+}
+
+.prodct-detiles {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 18px;
+}
+
+.stock {
+    background-color: #3DBDA7;
+    width: 50px;
+    height: 27px;
+    color: white;
+    border-radius: 8px;
+    margin-top: 24.5px;
+    margin-bottom: 15.5px;
+    
+}
+
+.stock p {
+    font-size: 9px;
+    font-weight: 700;
+    margin: 7px;
+    text-align: center;
+    position: relative;
+    top: 8px;
+}
+
+.white-line {
+    width: 332px;
+    height: 0.63px;
+    border-radius: 40px;
+    background-color:#5C5C5C ;
+    border: #5C5C5C;
+}
+
+.prodict-price{
+    height: 20px;
+}
+
+.R-symbil{
+    width: 16px;
+    float: left;
+    margin: 3px;
+    position: relative;
+    bottom: 2px;
+}
+
+.price{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.pay-detiles {
+    text-align: center;
+    font-size: 11px;
+    color:#6C6C6C ;
+    margin-bottom: 12px;
+    margin-top: 25px;
+}
+
+.cart-butten{
+    width: 154px;
+    height: 40px;
+    background-color: #3DBDA7;
+    border-radius: 72px;
+    margin-bottom: 23px ;
+    margin-left: 97px;
+    margin-right: 96px;
+}
+
+.cart-butten img {
+    float: left;
+    width: 24px;
+    margin-right: 8px;
+    position: relative;
+    top: 0px;
+    left: 23px;
+}
+
+
+.cart-butten p {
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 5px;
+}
+
+
+

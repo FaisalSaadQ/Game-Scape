@@ -1,0 +1,204 @@
+/* ==== Header Styles ==== */
+
+.top-header {
+    background-color: #3DBDA7 ;
+    width: 99%;
+    height: 56px; 
+    padding: 13px; ;
+    border-radius: 65px;
+    margin: 0 auto;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+.header-icon {
+    width: 25px;
+}
+
+.headr-logo img {
+    width: 52px; 
+    height: 56px;
+    margin-left:50px ;
+    margin-right: 190px;
+    float: left;
+
+}
+
+.text-nav a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+
+}
+
+.text-nav label {
+    margin-right:50px ;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.search {
+    position: relative;
+    float: left;
+    padding: 6.5px;
+    width: 228px;
+    height: 44px;
+    margin-left: 30px;
+    margin-right: 80px;
+}
+    
+.search input {
+    display: inline;
+    border-radius: 30px;
+    width: 100%;
+    height: 44px;
+    background-color: #242424;
+    padding:5px 40px 5px 15px ;
+    color: white;
+}
+    
+.search img {
+    display: inline;
+    width: 24px;
+    position: relative;
+    bottom: 35px;
+    left: 190px;
+}
+
+.icon-nav {
+    padding: 10px;
+}
+
+.icon-nav img {
+    margin-right: 50px;
+}
+
+
+.header-Searchicon {
+    width: 24px;
+    position: absolute;
+}
+
+
+.results-box {
+position: absolute;
+top: 100%; 
+left: 0;
+right: 0;
+background: #242424;
+border: 1px solid #ccc;
+border-radius: 8px;
+max-height: 250px;
+overflow-y: auto;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+z-index: 1000;
+padding: 4px 0;
+display: none; 
+}
+
+.search-item {
+padding: 10px 16px;
+cursor: pointer;
+font-size: 14px;
+color: white;
+border-radius: 6px;
+margin: 4px 8px;
+}
+
+.search-item:hover {
+background-color: #f2f2f254;
+}
+
+
+/* ==== Footer Styles ==== */
+
+.footer-web  {
+    margin-top: 25px;
+    width: 100%;
+    height: 300px;
+    border-radius: 40px;
+    border-top: 8px solid #3DBDA7;
+    color: white;
+    
+    
+}
+
+.green-underline {
+    background-color: #3DBDA7;
+    border: #3DBDA7;
+    width: 314px;
+    height: 3.11px;
+    border-radius: 40px;
+    margin: 0;
+    
+}
+
+.who-we-are, .important-links {
+    margin-right:100px ;
+}
+
+.who-we-are {
+
+    width: 438px;
+    height: 188px;
+    float: left;
+    margin-left: 150px;
+}
+
+.email-ancker img {
+    float: left;
+    width: 32.21px;
+    margin-right:4px;
+}
+
+.email-ancker p {
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    top: 5px;
+}
+
+.important-links {
+    width: 438px;
+    height: 188px;
+    float: left;
+}
+
+.important-links-list{
+    width: 438px;
+    height: 188px;
+    list-style-type:none;
+    padding: 0;
+    
+}
+
+.important-links-list li{
+    padding: 10px;
+    
+}
+
+
+
+.contact-us{
+    width: 438px;
+    height: 188px;
+    float: left;
+}
+
+
+
+
+.whatsapp-icon{
+    width: 115px;
+    height: 31px;
+    float: left;
+    margin-right: 66px;
+}
+
+.contact-us img{
+    width: 24px;
+    margin-top: 35px;
+    margin-left:16px ;
+}

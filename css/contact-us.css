@@ -1,0 +1,42 @@
+
+body {
+    background-color: #242424;
+    color: #3DBDA7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contact Us Form */
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #3dbda891;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #242424;
+    color: white;
+}
+
+button {
+    background-color: #3DBDA7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2B9E87;
+}

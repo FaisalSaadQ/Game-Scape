@@ -1,0 +1,124 @@
+body {
+    background-color: #1f1f1f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .checkout-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .checkout-container h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #00bfa6;
+    margin-bottom: 30px;
+  }
+  
+  .checkout-section {
+    background-color: #2c3e50;
+    padding: 25px 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+  
+  .checkout-section h3 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    color: #00bfa6;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  label input,
+  label select {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    font-size: 1rem;
+  }
+  
+  button[type="submit"] {
+    background-color: #00bfa6;
+    color: white;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #009e8a;
+  }
+  
+  .error {
+    background-color: #e74c3c;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+ 
+  
+  table {
+    width: 90%;
+    margin: 0 auto 20px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #3DBDA7;
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  th, td {
+    border: 1px solid #2e2e2e;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #1f1f1f;
+  }
+  
+  thead {
+    background-color: #1f1f1f;
+    font-weight: 600;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #262626;
+  }
+  
+  tfoot {
+    background-color: #1f1f1f;
+    font-weight: bold;
+  }
+  
+  tfoot td {
+    font-size: 18px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+  
