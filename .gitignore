@@ -1,25 +1,29 @@
-# CakePHP 3
+# Ignore sensitive files
+.env
+config.php
+db.php
 
-/vendor/*
-/config/app.php
+# Ignore database dumps
+*.sql
+*.bak
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# Ignore cache and session files
+/cache/
+/tmp/
+/sessions/
 
-/logs/*
-!/logs/empty
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
 
-# CakePHP 2
+# Ignore system files
+.DS_Store
+Thumbs.db
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+# Ignore node modules if used
+/node_modules/
+
+# Ignore composer dependencies (if any)
+vendor/
